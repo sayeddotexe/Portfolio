@@ -124,10 +124,7 @@ const Experience = () => {
           <div>
             <h1 className="font-poppins font-bold">Version control</h1>
           </div>
-          <div
-            className="flex gap-5 items-center hover:bg-gray-500 hover:bg-opacity-5 cursor-pointer"
-            onClick={() => setToggle4((prev) => !prev)}
-          >
+          <div className="flex gap-5 items-center hover:bg-gray-500 hover:bg-opacity-5 cursor-pointer">
             <h1 className="font-poppins font-semibold underline decoration-[#4725F2] underline-offset-8 decoration-2">
               Git
             </h1>
@@ -157,7 +154,6 @@ const Experience = () => {
               className="w-[20px] h-[20px] "
               src={toggle6 ? uarrow : darrow}
               alt="menu"
-              onClick={() => setToggle6((prev) => !prev)}
             ></Image>
           </div>
         </div>

@@ -38,7 +38,7 @@ const Navbar = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/sayeddotexe"
+          href="https://drive.google.com/file/d/1GPn81_Rig7tKrzo7qzphg7IqBnM5Pqis/view?usp=share_link"
         >
           <button className="bg-orange-400 pr-5 pl-5 pt-2 pb-2 rounded-2xl text-lg text-black hover:opacity-80">
             RESUME
