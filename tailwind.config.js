@@ -8,6 +8,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       animation: {
         'anim': ' flow  3s ease  infinite',
         'waving': ' wave 3s linear infinite ',

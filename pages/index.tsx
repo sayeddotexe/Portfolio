@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <Navbar />
         </div>
       </div>
-      <div className="bg-[url(../public/Images/image.jpg)] bg-no-repeat   bg-cover  ">
+      <div className="bg-[url('../public/Images/image.jpg')] bg-no-repeat bg-cover  ">
         {/* Hero */}
         <div className="  sm:px-16 px-6 flex justify-center items-center">
           <div className="max-w-[1700px] w-full">
