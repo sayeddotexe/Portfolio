@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     <div className={` bg-[#070614]`}>
       <Head>
         <title>Sayed Ismail Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./public/Images/favicon.ico" />
       </Head>
 
       {/* Navbar */}
