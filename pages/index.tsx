@@ -26,6 +26,7 @@ const Home: NextPage = () => {
           <Navbar />
         </div>
       </div>
+
       <div className="bg-arcane bg-no-repeat bg-cover  ">
         {/* Hero */}
         <div className="  sm:px-16 px-6 flex justify-center items-center">
