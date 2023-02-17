@@ -1,7 +1,6 @@
 import React from "react";
 import profile from "../public/Images/profile.png";
 import Image from "next/image";
-import tech from "../public/Images/tech.png";
 
 const Hero = () => {
   return (
