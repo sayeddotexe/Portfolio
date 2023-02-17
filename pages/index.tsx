@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-[#070614] to-[#121133] bg-no-repeat bg-cover   ">
+      <div className="animate-grad bg-gradient-to-r from-[#070614] to-[#121133]  ">
         {/* Hero */}
         <div className="  sm:px-16 px-6 flex justify-center items-center">
           <div className="max-w-[1700px] w-full">

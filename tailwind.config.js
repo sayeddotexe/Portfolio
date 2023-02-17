@@ -15,6 +15,7 @@ module.exports = {
       animation: {
         'anim': ' flow  3s ease  infinite',
         'waving': ' wave 3s linear infinite ',
+        'grad': 'wavey 5s ease infinite',
         
         
       },
@@ -35,6 +36,7 @@ module.exports = {
             'transform': 'rotate(45deg)',
             
           },
+          
         },
         wave: {
           '0%': {transform: 'rotate(0.0deg)',},
@@ -47,6 +49,16 @@ module.exports = {
           '100%': {transform: 'rotate(0.0deg)',},
        
           
+        },
+        wavey: {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center',
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center',
+          },
         },
         
       },

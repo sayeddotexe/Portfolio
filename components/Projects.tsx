@@ -1,6 +1,9 @@
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
-import reacticon from "../public/reacticon.png";
+import mlrectangle from "../public/mlrectangle.png";
+import sort from "../public/sort.png";
+import phone from "../public/phone.png";
+import githubprofile from "../public/githubprofile.png";
 import Image from "next/image";
 
 const Projects = () => {
@@ -25,7 +28,12 @@ const Projects = () => {
             rel="noopener noreferrer"
             href="https://github.com/sayeddotexe/Machine-Learning-Bootcamp"
           >
-            <div className="hover:opacity-80 bg-[#272761] bg-[-10rem_-14rem] bg-no-repeat  sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1] ">
+            <Image
+              src={mlrectangle}
+              alt="profile"
+              className="rounded-3xl hover:opacity-80 sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] sm:flex hidden transition-all"
+            ></Image>
+            <div className="sm:hidden hover:opacity-80 bg-[#272761] bg-[0rem_0rem] bg-[length:311px_520px] bg-no-repeat sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1] ">
               <div className="bg-[#272761] border border-white h-[73px] w-[73px] rounded-full sm:mb-5 sm:mr-5 cursor-pointer flex flex-col items-center justify-center ">
                 <BsArrowUpRight className="" size={40} />
               </div>
@@ -36,7 +44,12 @@ const Projects = () => {
             rel="noopener noreferrer"
             href="https://github.com/sayeddotexe/Python-Sort-Search-Visualisation"
           >
-            <div className="hover:opacity-80 bg-[#272761] bg-[0rem_0rem] bg-[length:311px_520px] bg-no-repeat sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1] ">
+            <Image
+              src={sort}
+              alt="profile"
+              className="rounded-3xl hover:opacity-80 sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] sm:flex hidden transition-all"
+            ></Image>
+            <div className="sm:hidden hover:opacity-80 bg-[#272761] bg-[0rem_0rem] bg-[length:311px_520px] bg-no-repeat sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1] ">
               <div className="bg-[#272761] border border-white h-[73px] w-[73px] rounded-full sm:mb-5 sm:mr-5 cursor-pointer flex flex-col items-center justify-center ">
                 <BsArrowUpRight className="" size={40} />
               </div>
@@ -50,7 +63,12 @@ const Projects = () => {
             rel="noopener noreferrer"
             href="https://github.com/sayeddotexe/Tensorflow-Deep-Learning"
           >
-            <div className="hover:opacity-80 bg-[#272761] bg-[0rem_0rem] bg-cover sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center  border-t-4 border-[#5A3AB1]">
+            <Image
+              src={phone}
+              alt="profile"
+              className="rounded-3xl hover:opacity-80 sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] sm:flex hidden transition-all"
+            ></Image>
+            <div className="sm:hidden hover:opacity-80 bg-[#272761] bg-[0rem_0rem] bg-[length:311px_520px] bg-no-repeat sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1] ">
               <div className="bg-[#272761] border border-white h-[73px] w-[73px] rounded-full sm:mb-5 sm:mr-5 cursor-pointer flex flex-col items-center justify-center ">
                 <BsArrowUpRight className="" size={40} />
               </div>
@@ -61,7 +79,12 @@ const Projects = () => {
             rel="noopener noreferrer"
             href="https://github.com/sayeddotexe"
           >
-            <div className="hover:opacity-80 bg-[#272761] bg-[-35rem_0rem] sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1]">
+            <Image
+              src={githubprofile}
+              alt="profile"
+              className="rounded-3xl hover:opacity-80 sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] sm:flex hidden transition-all"
+            ></Image>
+            <div className="sm:hidden hover:opacity-80 bg-[#272761] bg-[0rem_0rem] bg-[length:311px_520px] bg-no-repeat sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center border-t-4 border-[#5A3AB1] ">
               <div className="bg-[#272761] border border-white h-[73px] w-[73px] rounded-full sm:mb-5 sm:mr-5 cursor-pointer flex flex-col items-center justify-center ">
                 <BsArrowUpRight className="" size={40} />
               </div>
