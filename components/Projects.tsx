@@ -45,11 +45,17 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-row gap-10">
-          <div className="hover:opacity-80 bg-[url(../public/Images/app.jpg)] bg-[0rem_0rem] bg-cover sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center  border-t-4 border-[#5A3AB1]">
-            <div className="bg-[#272761] border border-white h-[73px] w-[73px] rounded-full sm:mb-5 sm:mr-5 cursor-pointer flex flex-col items-center justify-center ">
-              <BsArrowUpRight className="" size={40} />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/sayeddotexe/Tensorflow-Deep-Learning"
+          >
+            <div className="hover:opacity-80 bg-[url(../public/Images/app.jpg)] bg-[0rem_0rem] bg-cover sm:h-[520px] h-[100px]  sm:w-[311px] w-[100px] rounded-2xl flex flex-col sm:justify-end sm:items-end justify-center items-center  border-t-4 border-[#5A3AB1]">
+              <div className="bg-[#272761] border border-white h-[73px] w-[73px] rounded-full sm:mb-5 sm:mr-5 cursor-pointer flex flex-col items-center justify-center ">
+                <BsArrowUpRight className="" size={40} />
+              </div>
             </div>
-          </div>
+          </a>
           <a
             target="_blank"
             rel="noopener noreferrer"

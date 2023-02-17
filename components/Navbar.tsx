@@ -53,7 +53,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/sayed-ismail-ahmed-424469166/"
         >
-          <button className="bg-orange-400 pr-5 pl-5 pt-2 pb-2 rounded-2xl text-lg text-black hover:opacity-80">
+          <button className="bg-orange-400 font-semibold pr-5 pl-5 pt-2 pb-2 rounded-2xl text-lg text-black hover:opacity-80">
             RESUME
           </button>
         </a>
@@ -96,7 +96,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/sayed-ismail-ahmed-424469166/"
               >
-                <button className="bg-orange-400 pr-5 pl-5 pt-2 pb-2 rounded-2xl text-lg text-black mt-2 ml-2">
+                <button className="bg-orange-400 font-semibold pr-5 pl-5 pt-2 pb-2 rounded-2xl text-lg text-black mt-2 ml-2">
                   RESUME
                 </button>
               </a>
