@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-"arcane": "url('/image.jpg')",
+"arcane": "url('/Images/image.jpg')",
 "tech": "url('/tech.png')",
       },
       animation: {
