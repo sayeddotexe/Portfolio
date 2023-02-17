@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://sayeddotexe.github.io/Portfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +15,9 @@
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^5.15.0",
-    "tailwindcss-animation-delay": "^1.0.7"
+    "tailwindcss-animation-delay": "^1.0.7",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
