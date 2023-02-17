@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-"arcane": "url('../public/image.jpg')"
+"arcane": "url('../public/image.jpg')",
+"tech": "url('/Images/tech.png')",
       },
       animation: {
         'anim': ' flow  3s ease  infinite',

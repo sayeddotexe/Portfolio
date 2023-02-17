@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className=" flex md:flex-row flex-col sm:py-72 py-6 bg-[url(../public/Images/tech.png)] bg-no-repeat bg-[length:870px_870px]  bg-[40rem_1rem] pb-[100px] sm:mb-[100px] mb-[0px]"
+      className=" flex md:flex-row flex-col sm:py-72 py-6 bg-tech bg-no-repeat bg-[length:870px_870px]  bg-[40rem_1rem] pb-[100px] sm:mb-[100px] mb-[0px]"
     >
       <Image
         src={profile}
