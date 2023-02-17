@@ -8,7 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      backgroundImage: {
+"arcane": "url('../public/Images/image.jpg')"
+      },
       animation: {
         'anim': ' flow  3s ease  infinite',
         'waving': ' wave 3s linear infinite ',
