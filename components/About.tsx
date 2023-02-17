@@ -4,7 +4,7 @@ import Icons from "../public/Images/Icons.png";
 
 const About = () => {
   return (
-    <section id="about" className="flex md:flex-row flex-col sm:py-20 py-6 ">
+    <section id="about" className="flex md:flex-row flex-col sm:py-20 py-6  ">
       <div className="flex sm:flex-row flex-col justify-between items-center w-full">
         <div>
           <h1 className=" text-white font-poppins font-bold sm:text-5xl text-2xl sm:pt-0 pt-5">
