@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className={`flex md:flex-row flex-col sm:py-72 py-6 bg-tech bg-no-repeat bg-[length:870px_870px]  bg-[40rem_1rem] pb-[100px] sm:mb-[100px] mb-[0px]`}
+      className={`flex md:flex-row flex-col sm:py-36 py-6 bg-none bg-no-repeat bg-[length:870px_870px]  bg-[40rem_1rem] pb-[100px] sm:mb-[100px] mb-[0px] `}
     >
       <Image
         src={profile}
@@ -46,6 +46,13 @@ const Hero = () => {
               </button>
             </a>
           </div>
+        </div>
+        <div className="sm:flex hidden justify-center mr-[150px] ">
+          <Image
+            src={profile}
+            alt="profile"
+            className="rounded-3xl sm:flex hidden max-w-[600px] "
+          ></Image>
         </div>
       </div>
       <Image
