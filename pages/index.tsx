@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     <div className={` bg-[#070614]`}>
       <Head>
         <title>Sayed Ismail Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./Images/favicon.ico" />
       </Head>
 
       {/* Navbar */}
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <Navbar />
         </div>
       </div>
-      <div className="bg-[url(../public/Images/image.jpg)] bg-no-repeat   bg-cover  ">
+      <div className="bg-[url(../public/Images/image.JPG)] bg-no-repeat   bg-cover  ">
         {/* Hero */}
         <div className="  sm:px-16 px-6 flex justify-center items-center">
           <div className="max-w-[1700px] w-full">
