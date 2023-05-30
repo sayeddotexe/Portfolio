@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <div className={` bg-[#070614]`}>
       <Head>
-        <title>Sayed Ismail Portfolio</title>
+        <title>Sayed Portfolio</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
 
